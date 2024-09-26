@@ -97,6 +97,18 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  while (1)
+	   {
+	 	  for (int i = 31; i>=0; i--) {
+	 		  uint32_t Z = (X >> i) & 1;
+
+	 	  if (Z){
+	 		  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	 	  } else{
+	 		  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	 	  }
+	 	  LL_mDelay(200);
+	 	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
