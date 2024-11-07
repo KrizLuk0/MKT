@@ -1,0 +1,13 @@
+../Core/Src/main.c:72:5:_write	1
+../Core/Src/main.c:88:16:platform_write	1
+../Core/Src/main.c:94:16:platform_read	1
+../Core/Src/main.c:105:5:main	1
+../Core/Src/main.c:194:6:SystemClock_Config	4
+../Core/Src/main.c:240:13:MX_I2C1_Init	4
+../Core/Src/main.c:288:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:323:13:MX_GPIO_Init	1
+../Core/Src/main.c:376:6:StartDefaultTask	1
+../Core/Src/main.c:394:6:StartVisualTask	4
+../Core/Src/main.c:429:6:StartAcceleroTask	4
+../Core/Src/main.c:483:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:500:6:Error_Handler	1
