@@ -1,0 +1,7 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+12:08:12.180 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\xkrizl01\Desktop\MKT\MKT\lpcxpresso55s69_hello_world\Debug\.config (The system cannot find the file specified)]
+12:08:12.181 INFO: [TadModel] DSF session ID 54 has started.
+12:08:12.569 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (SUSPENDED, USER_REQUEST)
+12:09:09.766 INFO: [TadModel] DSF session ID 54 has ended.
